@@ -28,11 +28,13 @@ header {
 }
 
 main {
-  min-height: 1000px;
+  //min-height: 1000px;
+  min-height: 500px;
   padding: 2rem;
 }
 
 img {
+  transition: 0.2s ease-in;
   margin: 2em 0 0;
   width: 180px;
   height: 180px;
@@ -169,6 +171,8 @@ img {
 }
 
 .logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
   animation: color-rotate 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
